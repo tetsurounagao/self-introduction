@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+body {
+  background-color: #c9e9ff;
+
+}
+
+
+h2 {
+    font-family: 'Terminal','Segoe UI Black',sans-serif;
+    padding: 1rem 2rem;
+    border-top: 6px double #000;
+    border-bottom: 6px double #000;
+    text-align: center;
+    font-size: 50px;
+    color:#000000
+
+  }
+
+.name1 {
+  font-size: 50px;
+  
+  font-family:  serif; 
+  font-weight:bold
+  
+}
+
+.name2{
+  font-size: 15px;
+  transform: translate(0px,10px);
+}
+
+
+   .cover1 img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+.profile_title{
+  font-family: 'Terminal','Segoe UI Black',sans-serif;
+  font-size: 50px;
+  transform: translate(0px,-60px);
+}
+
+
+  h3{
+    text-align: center;
+  }
+
+.profile {
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 30px;
+  transform: translate(100px,-120px);
+}
+
+.profile p {
+    text-align: left;
+}
+
+.profile2{
+  transform: translate(0px,-120px);
+}
+
+
+.skill_title{
+  font-family: 'Terminal','Segoe UI Black',sans-serif;
+  font-size: 50px;
+  transform: translate(0px,-100px);
+}
+
+/*背景色をつけて角を丸くする*/
+.skillhtmltitle {
+  width: 200px;
+  margin: 2em auto;
+  padding:2em;/*内側余白*/
+  border-radius:30px;/*丸みを調整*/
+  background-color:#ffc400;
+  transform: translate(-150px,-60px);
+  }
+
+.skillhtml{
+  font-family: 'Terminal','Segoe UI Black',sans-serif;
+  font-size: 40px;
+  transform: translate(0px,-60px);
+}
+
+
+/*背景色をつけて角を丸くする*/
+.skillcss {
+  width: 200px;
+  margin: 2em auto;
+  padding:2em;/*内側余白*/
+  border-radius:30px;/*丸みを調整*/
+  background-color:#ffc400;
+  transform: translate(150px,-210px);
+  }
+
+.skillcsstitle{
+  font-family: 'Terminal','Segoe UI Black',sans-serif;
+  font-size: 40px;
+  transform: translate(0px,-80px);
+}
+
+/*背景色をつけて角を丸くする*/
+.skillmusic {
+  
+  width: 200px;
+  margin: 2em auto;
+  padding:2em;/*内側余白*/
+  border-radius:30px;/*丸みを調整*/
+  background-color:#392aff;
+  transform: translate(0px,-250px);
+  color:#ffffff
+  }
+
+.skillmusictitle{
+  font-family: 'Terminal','Segoe UI Black',sans-serif;
+  font-size: 40px;
+ 
+  transform: translate(0px,-60px);
+}
+
+
+.skill_1 {
+  
+  width: 300px;
+  margin:2em auto;
+  padding:2em;/*内側余白*/
+  border:solid 2px #333;/*線の種類・太さ・色*/
+  border-radius:30px;
+  }
+
+  body {
+    padding: 0;
+  }
+  
+  .container {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  
+  .cross {
+    text-align: center;
+    position: relative;
+    width: 20px; /* 縦棒の幅 */
+    height: 90px; /* 縦棒の長さ */
+    background: #000000; /* 縦棒の色 */
+    transform: translate(880px,-230px);
+  }
+  
+  .cross::after {
+    content: "";
+    position: absolute;
+    top: 35px; /* 横棒のy位置 */
+    left: -35px; /* 横棒のX位置 */
+    width: 90px; /* 横棒の長さ */
+    height: 20px; /* 横棒の幅 */
+    background: #000000; /* 横棒の色 */
+  }
+
+  .skill_music_ex{
+    transform: translate(0px,-230px);
+  }
+  
+.skill_ex{
+  transform: translate(0px,-250px);
+}
+
+.futter{
+  background-color: #333;
+  height: 200px;
+  color: #ffffff;
+  transform: translate(0px,250px);
+}
+
+  .wrap {
+    text-align: center;
+  }
+  .youtube {
+    max-width: 100%;
+  }
+  
